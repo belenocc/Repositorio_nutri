@@ -1,0 +1,377 @@
+$color1: rgba(206, 95, 119, 0.788);
+$color2: rgb(110, 110, 110);
+$color3: rgb(159, 233, 255);
+$color4: rgb(0, 0, 0);
+$color5: rgb(255, 255, 255);
+$titulos: 50px;
+$family: 'Noto Sans JP', sans-serif;
+$familytitulos:'Raleway', sans-serif;
+
+
+/*---Index---*/
+
+* {
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+.cuadro{
+    width: 1200px;
+    height: auto;
+    background-color: #dfb7b1c7;
+    padding-bottom: 2%;
+    padding: 2%;
+    margin: 2%;;
+    .cuadro__titulo{
+        font-size: $titulos;
+        font-family: $familytitulos;
+        color: $color5; 
+        text-align: center; 
+        padding: 2%;
+        margin: 0%;
+        .cuadro__parrafo{
+            padding: 2%;
+            margin: auto;
+}}}
+
+.cuadro--dos {
+    width: 9000px;
+    height: auto;
+    background-color: #c3b2b9;
+    padding-bottom: 2%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2%;;
+        .cuadro__titulo{
+            font-size: $titulos;
+            color: $color5; 
+            font-family: $familytitulos;
+            text-align: center; 
+            padding: 2%;
+            margin: 0%;
+}        
+}
+
+.cuadro__Tres{
+        width: 320px;
+        height: auto;
+        background-color:#b9b9b9;
+        padding-bottom: 2%;
+        padding: 2%;
+        margin: 2%;
+        position:relative;
+        justify-content: stretch;
+        flex-flow: nowrap;
+}
+
+.cuadro__Tres:hover,
+.cuadro__Cuatro:hover,
+.cuadro__Cinco:hover {
+        border: solid 1px #dddddd;
+        transform: scale(105%);
+}
+
+.cuadro__Cuatro {
+    background-color:rgba(206, 95, 119, 0.788);
+    width: 320px;
+    height: auto;
+    padding-bottom: 2%;
+    padding: 2%;
+    margin: 2%;
+    position:relative;
+    justify-content: stretch;
+    flex-flow: nowrap;
+}
+
+.cuadro__titulo{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    font-weight: bold 800;
+    color:rgb(32, 30, 30)
+    }
+
+.cuadro__Cinco {
+    background-color:rgb(224, 162, 104);
+    width: 320px;
+    height: auto;
+    padding-bottom: 2%;
+    padding: 2%;
+    margin: 2%;
+    position:relative;
+    justify-content: stretch;
+    flex-flow: nowrap;
+}
+
+.cuadro__imagendos {
+        background-image: url("../Imagenes/licenciatura-en-nutricion_2.jpeg");
+        background-attachment:fixed;
+        background-size:contain;
+        width: auto; 
+        height: 444px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.cuadro__cuadrito {
+    background-color: rgba(255, 255, 255, 0.774);
+    width: auto;
+    height: auto; 
+    text-align: center;
+    display: block;
+    margin:auto;
+    margin-top: 15%;
+    .cuadro__bold{ 
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold 800;
+    font: $family;
+    .cuadro__article{
+        margin: 2%;
+        color:rgb(53, 53, 53);
+    }
+}    
+}
+
+.carru {
+        height: 350px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+ {background-color:black}
+
+
+
+
+.titulos__pages {
+    display: none;}
+
+
+/*---Acerca de mi---*/
+
+.encabezado__index{
+    background-image: url(../Imagenes/fresa.jpg);
+    width: auto;
+    height: 388px;
+    background-repeat: repeat-x;
+}
+
+.encabezado__logoindex{
+    border: none;
+        height: 250px; 
+        width: 250px; 
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+}
+
+
+.encabezado {
+    background-image: url(../Imagenes/fresa.jpg);
+    width: auto;
+    height: 250px;
+    opacity: 0.8;
+    background-repeat: repeat-x;
+}
+
+.contenedorUno {background-color: #ffffff}
+
+.contenedorDos {background-color: $color1;}
+
+.contenedorCuatro {background-color: $color4;}
+
+
+.bloqueUno__titulo{ 
+    font-size: $titulos;
+    text-align: center;
+    font-family: $familytitulos;
+    margin: 2%;
+    color:$color2;
+.bloqueUno__parrafo { 
+    font-size: $titulos/3;
+
+}
+}
+
+.bloqueDos__titulo{ 
+    font-size: $titulos/2;
+    text-align: center;
+    margin: 2%;
+    color:$color5;
+    .bloqueDos__parrafo { 
+        font-size: $titulos/3;
+        margin: 2%;
+}
+}
+
+.bloqueDos__img {
+    width: 260px;
+    height: auto;
+    margin: 5%;
+}
+
+.bloqueTres__titulo{
+    color:$color5;
+    font-size: $titulos/2;
+    text-align: center;
+    margin: 3%;
+    .bloqueTres__parrafo{
+    font-size: $titulos/3;
+    margin: 2%;
+
+}
+}
+
+.bloqueTres--cambio {
+    background-color: rgb(236, 236, 236);
+}
+
+.bloqueCuatro__titulo{
+    color:$color5;
+    font-size: $titulos/2;
+    text-align: center;
+    margin: 3%;
+    .bloqueCuatro__parrafo{
+    font-size: $titulos/3;
+    margin: 2%;
+
+}
+}
+
+.encabezado__logo{
+        border: none;
+        height: 250px; 
+        width: 250px; 
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+.encabezado__logo:hover{
+        transform: rotate(360deg);
+        transition: 2s;
+}
+
+nav     {
+        background-color: $color4;
+        width: 100%;
+        height: auto;
+        .nav-item{ 
+            .nav-link{
+            color:$color5;
+            text-decoration: none;
+            list-style: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold 600;
+            font-size: 15px;
+        
+            }
+        }
+    }
+
+
+.nav-Mio--footer{
+    background-color:rgb(53, 53, 53);
+    .nav-link{
+    color: $color5;
+}
+}
+
+/*---- Mis recetas---*/
+
+.tituloInfo{
+    color: $color2;
+    font-size: $titulos;
+    text-align: center;
+    font-family: $familytitulos;
+    margin: 2rem;
+
+}
+
+.card{ margin: 2rem;
+.card-img-top {
+    width: 18rem;
+    height: 12rem;
+}
+}
+
+
+/*--- contacto ---*/
+
+.contactos__titulo{
+    color:rgb(53, 53, 53);
+    font-size: $titulos;
+    font-family: $familytitulos;
+    text-align: center;
+    margin: 2rem;
+}
+
+.contactos__color{ 
+    background-color:rgba(255, 208, 208, 0.685);
+.contactos__contenedor{ 
+                background-color: rgb(248, 176, 176);
+                width: 70%;
+                height: auto;
+                margin-right: auto;
+                margin-left: auto;
+                text-align: left;
+                margin-bottom: 2%;
+                .contactos__boton{
+                    margin: 2%;
+        }
+    }
+}
+
+
+/*--Novedades--*/
+
+
+.Novedades__contenedor {
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-top {
+    width: 150px;
+}
+
+.card:hover {
+    border-color: solid #e480c2 5%;
+    transform: scale(10px);
+    transition: all 2s;
+}
+
+.tituloNovedades {color: #e7b1d5;
+    font-size: $titulos;
+    text-align: center;
+    font-family: $familytitulos;
+    margin: 2rem;}
+
+.color { background-color: black;}
+
+
+/*--Footer--*/
+
+i {
+    width: 25px;
+    height: 15px;  
+}
+
+.nav-link:hover {
+    background-color: rgb(231, 168, 205);
+    transition: all 2s;
+    color: rgb(207, 69, 97);
+
+}

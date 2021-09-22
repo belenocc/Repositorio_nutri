@@ -1,0 +1,387 @@
+/*---Index---*/
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cuadro {
+  width: 1200px;
+  height: auto;
+  background-color: #dfb7b1c7;
+  padding-bottom: 2%;
+  padding: 2%;
+  margin: 2%;
+}
+
+.cuadro .cuadro__titulo {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-align: center;
+  padding: 2%;
+  margin: 0%;
+}
+
+.cuadro .cuadro__titulo .cuadro__parrafo {
+  padding: 2%;
+  margin: auto;
+}
+
+.cuadro--dos {
+  width: 9000px;
+  height: auto;
+  background-color: #c3b2b9;
+  padding-bottom: 2%;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 2%;
+}
+
+.cuadro--dos .cuadro__titulo {
+  font-size: 50px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding: 2%;
+  margin: 0%;
+}
+
+.cuadro__Tres {
+  width: 320px;
+  height: auto;
+  background-color: #b9b9b9;
+  padding-bottom: 2%;
+  padding: 2%;
+  margin: 2%;
+  position: relative;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -ms-flex-flow: nowrap;
+      flex-flow: nowrap;
+}
+
+.cuadro__Tres:hover,
+.cuadro__Cuatro:hover,
+.cuadro__Cinco:hover {
+  border: solid 1px #dddddd;
+  -webkit-transform: scale(105%);
+          transform: scale(105%);
+}
+
+.cuadro__Cuatro {
+  background-color: rgba(206, 95, 119, 0.788);
+  width: 320px;
+  height: auto;
+  padding-bottom: 2%;
+  padding: 2%;
+  margin: 2%;
+  position: relative;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -ms-flex-flow: nowrap;
+      flex-flow: nowrap;
+}
+
+.cuadro__titulo {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  font-weight: bold 800;
+  color: #201e1e;
+}
+
+.cuadro__Cinco {
+  background-color: #e0a268;
+  width: 320px;
+  height: auto;
+  padding-bottom: 2%;
+  padding: 2%;
+  margin: 2%;
+  position: relative;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -ms-flex-flow: nowrap;
+      flex-flow: nowrap;
+}
+
+.cuadro__imagendos {
+  background-image: url("../Imagenes/licenciatura-en-nutricion_2.jpeg");
+  background-attachment: fixed;
+  background-size: contain;
+  width: auto;
+  height: 444px;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cuadro__cuadrito {
+  background-color: rgba(255, 255, 255, 0.774);
+  width: auto;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 15%;
+}
+
+.cuadro__cuadrito .cuadro__bold {
+  color: black;
+  font-size: 20px;
+  font-weight: bold 800;
+  font: "Noto Sans JP", sans-serif;
+}
+
+.cuadro__cuadrito .cuadro__bold .cuadro__article {
+  margin: 2%;
+  color: #353535;
+}
+
+.carru {
+  height: 350px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.titulos__pages {
+  display: none;
+}
+
+/*---Acerca de mi---*/
+.encabezado__index {
+  background-image: url(../Imagenes/fresa.jpg);
+  width: auto;
+  height: 388px;
+  background-repeat: repeat-x;
+}
+
+.encabezado__logoindex {
+  border: none;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.encabezado {
+  background-image: url(../Imagenes/fresa.jpg);
+  width: auto;
+  height: 250px;
+  opacity: 0.8;
+  background-repeat: repeat-x;
+}
+
+.contenedorUno {
+  background-color: #ffffff;
+}
+
+.contenedorDos {
+  background-color: rgba(206, 95, 119, 0.788);
+}
+
+.contenedorCuatro {
+  background-color: black;
+}
+
+.bloqueUno__titulo {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  margin: 2%;
+  color: #6e6e6e;
+}
+
+.bloqueUno__titulo .bloqueUno__parrafo {
+  font-size: 16.66667px;
+}
+
+.bloqueDos__titulo {
+  font-size: 25px;
+  text-align: center;
+  margin: 2%;
+  color: white;
+}
+
+.bloqueDos__titulo .bloqueDos__parrafo {
+  font-size: 16.66667px;
+  margin: 2%;
+}
+
+.bloqueDos__img {
+  width: 260px;
+  height: auto;
+  margin: 5%;
+}
+
+.bloqueTres__titulo {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin: 3%;
+}
+
+.bloqueTres__titulo .bloqueTres__parrafo {
+  font-size: 16.66667px;
+  margin: 2%;
+}
+
+.bloqueTres--cambio {
+  background-color: #ececec;
+}
+
+.bloqueCuatro__titulo {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin: 3%;
+}
+
+.bloqueCuatro__titulo .bloqueCuatro__parrafo {
+  font-size: 16.66667px;
+  margin: 2%;
+}
+
+.encabezado__logo {
+  border: none;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.encabezado__logo:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+nav {
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+
+nav .nav-item .nav-link {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold 600;
+  font-size: 15px;
+}
+
+.nav-Mio--footer {
+  background-color: #353535;
+}
+
+.nav-Mio--footer .nav-link {
+  color: white;
+}
+
+/*---- Mis recetas---*/
+.tituloInfo {
+  color: #6e6e6e;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  margin: 2rem;
+}
+
+.card {
+  margin: 2rem;
+}
+
+.card .card-img-top {
+  width: 18rem;
+  height: 12rem;
+}
+
+/*--- contacto ---*/
+.contactos__titulo {
+  color: #353535;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin: 2rem;
+}
+
+.contactos__color {
+  background-color: rgba(255, 208, 208, 0.685);
+}
+
+.contactos__color .contactos__contenedor {
+  background-color: #f8b0b0;
+  width: 70%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  margin-bottom: 2%;
+}
+
+.contactos__color .contactos__contenedor .contactos__boton {
+  margin: 2%;
+}
+
+/*--Novedades--*/
+.Novedades__contenedor {
+  background-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-img-top {
+  width: 150px;
+}
+
+.card:hover {
+  border-color: solid #e480c2 5%;
+  -webkit-transform: scale(10px);
+          transform: scale(10px);
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.tituloNovedades {
+  color: #e7b1d5;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  margin: 2rem;
+}
+
+.color {
+  background-color: black;
+}
+
+/*--Footer--*/
+i {
+  width: 25px;
+  height: 15px;
+}
+
+.nav-link:hover {
+  background-color: #e7a8cd;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  color: #cf4561;
+}
+/*# sourceMappingURL=styles.css.map */
